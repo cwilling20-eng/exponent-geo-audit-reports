@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GEO Punchlist — All Around AC</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #fefefe;
+            color: #0c1414;
+            line-height: 1.6;
+            padding: 0;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 24px;
+        }
+        table { page-break-inside: auto; }
+        tr { page-break-inside: avoid; }
+        thead { display: table-header-group; }
+        tbody tr {
+            border-bottom: 1px solid #f1f5f9;
+        }
+        tbody tr:hover {
+            background: #f8fafc;
+        }
+        td {
+            padding: 12px;
+            vertical-align: top;
+        }
+        details {
+            margin-top: 40px;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            padding: 0;
+        }
+        details summary {
+            padding: 16px 20px;
+            cursor: pointer;
+            font-weight: 600;
+            color: #334155;
+            background: #f8fafc;
+            border-radius: 8px;
+        }
+        details[open] summary {
+            border-bottom: 1px solid #e2e8f0;
+            border-radius: 8px 8px 0 0;
+        }
+        details > div {
+            padding: 16px 20px;
+        }
+        @media print {
+            body { padding: 0; font-size: 11px; }
+            .container { padding: 20px; }
+            .no-print { display: none; }
+            details { display: block; }
+            details > div { display: block; }
+        }
+        @media (max-width: 768px) {
+            .container { padding: 16px 12px; }
+            table { font-size: 13px; }
+            td, th { padding: 8px 6px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div style="text-align:center;margin-bottom:32px;padding-bottom:24px;border-bottom:3px solid #4cc1ce;">
+            <div style="font-size:12px;text-transform:uppercase;letter-spacing:2px;color:#4cc1ce;font-weight:600;margin-bottom:8px;">Exponent Marketing & AI</div>
+            <h1 style="font-size:28px;color:#0c1414;margin-bottom:8px;">GEO Action Plan</h1>
+            <div style="font-size:20px;font-weight:600;color:#334155;margin-bottom:16px;">All Around AC</div>
+            <div style="font-size:14px;color:#64748b;">Generated March 29, 2026</div>
+        </div>
+
+        <!-- Score + Summary Cards -->
+        <div style="display:flex;gap:16px;flex-wrap:wrap;margin-bottom:24px;">
+            <div style="flex:1;min-width:140px;text-align:center;padding:20px;background:#0c1414;border-radius:8px;color:#fefefe;">
+                <div style="font-size:36px;font-weight:700;color:#4cc1ce;">37<span style="font-size:18px;color:#94a3b8;">/100</span></div>
+                <div style="font-size:13px;color:#94a3b8;margin-top:4px;">GEO Audit Score</div>
+            </div>
+            <div style="flex:1;min-width:140px;text-align:center;padding:20px;background:#f8fafc;border-radius:8px;border:1px solid #e2e8f0;">
+                <div style="font-size:36px;font-weight:700;color:#0c1414;">15</div>
+                <div style="font-size:13px;color:#64748b;margin-top:4px;">Total Action Items</div>
+            </div>
+            <div style="flex:1;min-width:140px;text-align:center;padding:20px;background:#f8fafc;border-radius:8px;border:1px solid #e2e8f0;">
+                <div style="font-size:14px;color:#334155;line-height:1.8;">
+                    <span style="font-weight:700;color:#16a34a;">11</span> this week<br>
+                    <span style="font-weight:700;color:#ea580c;">3</span> this month<br>
+                    <span style="font-weight:700;color:#64748b;">1</span> ongoing
+                </div>
+            </div>
+        </div>
+
+        
+        <div style="margin:24px 0;padding:20px;background:#f8fafc;border-radius:8px;border:1px solid #e2e8f0;">
+            <div style="font-size:14px;font-weight:600;color:#334155;margin-bottom:12px;">Issue Severity Breakdown</div>
+            <div style="display:flex;height:28px;border-radius:6px;overflow:hidden;background:#e2e8f0;">
+                <div style="width:7%;background:#dc2626;" title="Critical: 1"></div>
+                <div style="width:67%;background:#ea580c;" title="High: 10"></div>
+                <div style="width:20%;background:#ca8a04;" title="Medium: 3"></div>
+                <div style="width:7%;background:#9ca3af;" title="Low: 1"></div>
+            </div>
+            <div style="display:flex;justify-content:space-between;margin-top:8px;font-size:12px;color:#64748b;">
+                <span style="color:#dc2626;font-weight:600;">Critical: 1</span>
+                <span style="color:#ea580c;font-weight:600;">High: 10</span>
+                <span style="color:#ca8a04;font-weight:600;">Medium: 3</span>
+                <span style="color:#9ca3af;font-weight:600;">Low: 1</span>
+            </div>
+        </div>
+
+        <!-- Phase Tables -->
+        
+        <div style="margin-bottom:40px;">
+            <h2 style="color:#16a34a;border-bottom:3px solid #16a34a;padding-bottom:8px;margin-bottom:16px;">
+                Phase 1: Do This Week <span style="font-weight:400;font-size:16px;color:#666;">(11 items)</span>
+            </h2>
+            <table style="width:100%;border-collapse:collapse;">
+                <thead>
+                    <tr style="background:#f8fafc;border-bottom:2px solid #e2e8f0;">
+                        <th style="padding:10px 12px;text-align:center;width:60px;font-size:13px;color:#64748b;">Score</th>
+                        <th style="padding:10px 12px;text-align:left;font-size:13px;color:#64748b;">Action Item</th>
+                        <th style="padding:10px 12px;text-align:center;width:120px;font-size:13px;color:#64748b;">Impact</th>
+                        <th style="padding:10px 12px;text-align:center;width:120px;font-size:13px;color:#64748b;">Effort</th>
+                        <th style="padding:10px 12px;text-align:center;width:100px;font-size:13px;color:#64748b;">Category</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                <td style="text-align:center;font-weight:700;font-size:18px;color:#16a34a;">25</td>
+                <td>
+                    <div style="font-weight:500;margin-bottom:4px;">Unblock 18 AI crawlers in robots.txt (GPTBot (OpenAI), OAI-SearchBot (OpenAI), ChatGPT-User (OpenAI), etc.)</div>
+                    <div style="font-size:12px;color:#666;margin-top:2px;">Evidence: Blocked: GPTBot (OpenAI), OAI-SearchBot (OpenAI), ChatGPT-User (OpenAI), ClaudeBot (Anthropic), Claude-SearchBot (Anthropic), Google-Extended (Google), Googlebot (Google), Bingbot (Microsoft), PerplexityBot (Perplexity), Claude-User (Anthropic), Applebot (Apple), Applebot-Extended (Apple), Amazonbot (Amazon), Bytespider (ByteDance), Meta-ExternalAgent (Meta), meta-externalfetcher (Meta), cohere-ai (Cohere), YouBot (You.com)</div>
+                </td>
+                <td style="text-align:center;"><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#dc2626;color:#fff;font-size:12px;font-weight:600;">5 — Critical</span></td>
+                <td style="text-align:center;"><span style="color:#555;font-size:13px;">1 — &lt;30 min</span></td>
+                <td style="text-align:center;"><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#f1f5f9;color:#334155;font-size:12px;">Technical</span></td>
+            </tr><tr>
+                <td style="text-align:center;font-weight:700;font-size:18px;color:#16a34a;">16</td>
+                <td>
+                    <div style="font-weight:500;margin-bottom:4px;">Add FAQPage schema — AI platforms use this to understand your business</div>
+                    <div style="font-size:12px;color:#666;margin-top:2px;">Evidence: Not found</div>
+                </td>
+                <td style="text-align:center;"><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ea580c;color:#fff;font-size:12px;font-weight:600;">4 — High</span></td>
+                <td style="text-align:center;"><span style="color:#555;font-size:13px;">2 — 1-3 hrs</span></td>
+                <td style="text-align:center;"><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#f1f5f9;color:#334155;font-size:12px;">Technical</span></td>
+            </tr><tr>
+                <td style="text-align:center;font-weight:700;font-size:18px;color:#16a34a;">16</td>
+                <td>
+                    <div style="font-weight:500;margin-bottom:4px;">Add BreadcrumbList schema — AI platforms use this to understand your business</div>
+                    <div style="font-size:12px;color:#666;margin-top:2px;">Evidence: Not found</div>
+                </td>
+                <td style="text-align:center;"><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ea580c;color:#fff;font-size:12px;font-weight:600;">4 — High</span></td>
+                <td style="text-align:center;"><span style="color:#555;font-size:13px;">2 — 1-3 hrs</span></td>
+                <td style="text-align:center;"><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#f1f5f9;color:#334155;font-size:12px;">Technical</span></td>
+            </tr><tr>
+                <td style="text-align:center;font-weight:700;font-size:18px;color:#16a34a;">16</td>
+                <td>
+                    <div style="font-weight:500;margin-bottom:4px;">Add Types present: 2 of 5 schema — AI platforms use this to understand your business</div>
+                    <div style="font-size:12px;color:#666;margin-top:2px;">Evidence: 2/5 points</div>
+                </td>
+                <td style="text-align:center;"><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ea580c;color:#fff;font-size:12px;font-weight:600;">4 — High</span></td>
+                <td style="text-align:center;"><span style="color:#555;font-size:13px;">2 — 1-3 hrs</span></td>
+                <td style="text-align:center;"><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#f1f5f9;color:#334155;font-size:12px;">Technical</span></td>
+            </tr><tr>
+                <td style="text-align:center;font-weight:700;font-size:18px;color:#16a34a;">16</td>
+                <td>
+                    <div style="font-weight:500;margin-bottom:4px;">Add Property completeness schema — AI platforms use this to understand your business</div>
+                    <div style="font-size:12px;color:#666;margin-top:2px;">Evidence: 50% avg — 2/3 points</div>
+                </td>
+                <td style="text-align:center;"><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ea580c;color:#fff;font-size:12px;font-weight:600;">4 — High</span></td>
+                <td style="text-align:center;"><span style="color:#555;font-size:13px;">2 — 1-3 hrs</span></td>
+                <td style="text-align:center;"><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#f1f5f9;color:#334155;font-size:12px;">Technical</span></td>
+            </tr><tr>
+                <td style="text-align:center;font-weight:700;font-size:18px;color:#16a34a;">16</td>
+                <td>
+                    <div style="font-weight:500;margin-bottom:4px;">Add Service (bonus) schema — AI platforms use this to understand your business</div>
+                    <div style="font-size:12px;color:#666;margin-top:2px;">Evidence: Not found</div>
+                </td>
+                <td style="text-align:center;"><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ea580c;color:#fff;font-size:12px;font-weight:600;">4 — High</span></td>
+                <td style="text-align:center;"><span style="color:#555;font-size:13px;">2 — 1-3 hrs</span></td>
+                <td style="text-align:center;"><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#f1f5f9;color:#334155;font-size:12px;">Technical</span></td>
+            </tr><tr>
+                <td style="text-align:center;font-weight:700;font-size:18px;color:#16a34a;">16</td>
+                <td>
+                    <div style="font-weight:500;margin-bottom:4px;">Add HowTo (bonus) schema — AI platforms use this to understand your business</div>
+                    <div style="font-size:12px;color:#666;margin-top:2px;">Evidence: Not found</div>
+                </td>
+                <td style="text-align:center;"><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ea580c;color:#fff;font-size:12px;font-weight:600;">4 — High</span></td>
+                <td style="text-align:center;"><span style="color:#555;font-size:13px;">2 — 1-3 hrs</span></td>
+                <td style="text-align:center;"><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#f1f5f9;color:#334155;font-size:12px;">Technical</span></td>
+            </tr><tr>
+                <td style="text-align:center;font-weight:700;font-size:18px;color:#16a34a;">16</td>
+                <td>
+                    <div style="font-weight:500;margin-bottom:4px;">Rewrite the opening paragraph on / to directly answer the implied search query</div>
+                    <div style="font-size:12px;color:#666;margin-top:2px;">Evidence: No direct-answer opening paragraph on /</div>
+                </td>
+                <td style="text-align:center;"><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ea580c;color:#fff;font-size:12px;font-weight:600;">4 — High</span></td>
+                <td style="text-align:center;"><span style="color:#555;font-size:13px;">2 — 1-3 hrs</span></td>
+                <td style="text-align:center;"><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#f1f5f9;color:#334155;font-size:12px;">Content</span></td>
+            </tr><tr>
+                <td style="text-align:center;font-weight:700;font-size:18px;color:#16a34a;">16</td>
+                <td>
+                    <div style="font-weight:500;margin-bottom:4px;">Rewrite the opening paragraph on /about-us to directly answer the implied search query</div>
+                    <div style="font-size:12px;color:#666;margin-top:2px;">Evidence: No direct-answer opening paragraph on /about-us</div>
+                </td>
+                <td style="text-align:center;"><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ea580c;color:#fff;font-size:12px;font-weight:600;">4 — High</span></td>
+                <td style="text-align:center;"><span style="color:#555;font-size:13px;">2 — 1-3 hrs</span></td>
+                <td style="text-align:center;"><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#f1f5f9;color:#334155;font-size:12px;">Content</span></td>
+            </tr><tr>
+                <td style="text-align:center;font-weight:700;font-size:18px;color:#16a34a;">16</td>
+                <td>
+                    <div style="font-weight:500;margin-bottom:4px;">Rewrite the opening paragraph on /ac-services to directly answer the implied search query</div>
+                    <div style="font-size:12px;color:#666;margin-top:2px;">Evidence: No direct-answer opening paragraph on /ac-services</div>
+                </td>
+                <td style="text-align:center;"><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ea580c;color:#fff;font-size:12px;font-weight:600;">4 — High</span></td>
+                <td style="text-align:center;"><span style="color:#555;font-size:13px;">2 — 1-3 hrs</span></td>
+                <td style="text-align:center;"><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#f1f5f9;color:#334155;font-size:12px;">Content</span></td>
+            </tr><tr>
+                <td style="text-align:center;font-weight:700;font-size:18px;color:#16a34a;">15</td>
+                <td>
+                    <div style="font-weight:500;margin-bottom:4px;">Add license numbers, insurance details, and manufacturer certifications to service pages</div>
+                    
+                </td>
+                <td style="text-align:center;"><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ca8a04;color:#fff;font-size:12px;font-weight:600;">3 — Medium</span></td>
+                <td style="text-align:center;"><span style="color:#555;font-size:13px;">1 — &lt;30 min</span></td>
+                <td style="text-align:center;"><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#f1f5f9;color:#334155;font-size:12px;">Content</span></td>
+            </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div style="margin-bottom:40px;">
+            <h2 style="color:#ea580c;border-bottom:3px solid #ea580c;padding-bottom:8px;margin-bottom:16px;">
+                Phase 2: Do This Month <span style="font-weight:400;font-size:16px;color:#666;">(3 items)</span>
+            </h2>
+            <table style="width:100%;border-collapse:collapse;">
+                <thead>
+                    <tr style="background:#f8fafc;border-bottom:2px solid #e2e8f0;">
+                        <th style="padding:10px 12px;text-align:center;width:60px;font-size:13px;color:#64748b;">Score</th>
+                        <th style="padding:10px 12px;text-align:left;font-size:13px;color:#64748b;">Action Item</th>
+                        <th style="padding:10px 12px;text-align:center;width:120px;font-size:13px;color:#64748b;">Impact</th>
+                        <th style="padding:10px 12px;text-align:center;width:120px;font-size:13px;color:#64748b;">Effort</th>
+                        <th style="padding:10px 12px;text-align:center;width:100px;font-size:13px;color:#64748b;">Category</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                <td style="text-align:center;font-weight:700;font-size:18px;color:#ea580c;">12</td>
+                <td>
+                    <div style="font-weight:500;margin-bottom:4px;">Upload photos of completed projects with descriptive alt text and captions</div>
+                    
+                </td>
+                <td style="text-align:center;"><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ca8a04;color:#fff;font-size:12px;font-weight:600;">3 — Medium</span></td>
+                <td style="text-align:center;"><span style="color:#555;font-size:13px;">2 — 1-3 hrs</span></td>
+                <td style="text-align:center;"><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#f1f5f9;color:#334155;font-size:12px;">Content</span></td>
+            </tr><tr>
+                <td style="text-align:center;font-weight:700;font-size:18px;color:#ea580c;">12</td>
+                <td>
+                    <div style="font-weight:500;margin-bottom:4px;">List specific neighborhoods and zip codes served in AreaServed schema</div>
+                    
+                </td>
+                <td style="text-align:center;"><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ca8a04;color:#fff;font-size:12px;font-weight:600;">3 — Medium</span></td>
+                <td style="text-align:center;"><span style="color:#555;font-size:13px;">2 — 1-3 hrs</span></td>
+                <td style="text-align:center;"><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#f1f5f9;color:#334155;font-size:12px;">Technical</span></td>
+            </tr><tr>
+                <td style="text-align:center;font-weight:700;font-size:18px;color:#ea580c;">10</td>
+                <td>
+                    <div style="font-weight:500;margin-bottom:4px;">Create llms.txt file with business summary, key services, and links to important pages</div>
+                    <div style="font-size:12px;color:#666;margin-top:2px;">Evidence: No llms.txt found</div>
+                </td>
+                <td style="text-align:center;"><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#6b7280;color:#fff;font-size:12px;font-weight:600;">2 — Low</span></td>
+                <td style="text-align:center;"><span style="color:#555;font-size:13px;">1 — &lt;30 min</span></td>
+                <td style="text-align:center;"><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#f1f5f9;color:#334155;font-size:12px;">Technical</span></td>
+            </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div style="margin-bottom:40px;">
+            <h2 style="color:#64748b;border-bottom:3px solid #64748b;padding-bottom:8px;margin-bottom:16px;">
+                Phase 3: Ongoing <span style="font-weight:400;font-size:16px;color:#666;">(1 items)</span>
+            </h2>
+            <table style="width:100%;border-collapse:collapse;">
+                <thead>
+                    <tr style="background:#f8fafc;border-bottom:2px solid #e2e8f0;">
+                        <th style="padding:10px 12px;text-align:center;width:60px;font-size:13px;color:#64748b;">Score</th>
+                        <th style="padding:10px 12px;text-align:left;font-size:13px;color:#64748b;">Action Item</th>
+                        <th style="padding:10px 12px;text-align:center;width:120px;font-size:13px;color:#64748b;">Impact</th>
+                        <th style="padding:10px 12px;text-align:center;width:120px;font-size:13px;color:#64748b;">Effort</th>
+                        <th style="padding:10px 12px;text-align:center;width:100px;font-size:13px;color:#64748b;">Category</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                <td style="text-align:center;font-weight:700;font-size:18px;color:#64748b;">8</td>
+                <td>
+                    <div style="font-weight:500;margin-bottom:4px;">Not ranking in Google top 10 for any of 1 target queries — foundational SEO work needed</div>
+                    <div style="font-size:12px;color:#666;margin-top:2px;">Evidence: 0/1 queries ranking in top 10</div>
+                </td>
+                <td style="text-align:center;"><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#ea580c;color:#fff;font-size:12px;font-weight:600;">4 — High</span></td>
+                <td style="text-align:center;"><span style="color:#555;font-size:13px;">4 — Multi-day</span></td>
+                <td style="text-align:center;"><span style="display:inline-block;padding:2px 8px;border-radius:4px;background:#f1f5f9;color:#334155;font-size:12px;">Competitive</span></td>
+            </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Appendix -->
+        <details>
+            <summary>Appendix: Raw Findings</summary>
+            <div>
+                <h4 style='margin:12px 0 6px;color:#0c1414;'>CRAWLER ACCESS — 6/20 points</h4><ul style='margin:0 0 8px;padding-left:20px;font-size:13px;color:#475569;'><li><span style='color:#16a34a;font-weight:600;'>[PASS]</span> robots.txt exists — HTTP 200</li><li><span style='color:#dc2626;font-weight:600;'>[FAIL]</span> robots.txt score — 1/8 points</li><li><span style='color:#dc2626;font-weight:600;'>[FAIL]</span> llms.txt exists — None</li><li><span style='color:#dc2626;font-weight:600;'>[FAIL]</span> llms.txt score — 0/6 points</li><li><span style='color:#16a34a;font-weight:600;'>[PASS]</span> sitemap.xml exists — HTTP 200</li><li><span style='color:#16a34a;font-weight:600;'>[PASS]</span> sitemap.xml score — 5/6 points</li></ul><h4 style='margin:12px 0 6px;color:#0c1414;'>SCHEMA MARKUP — 16/35 points</h4><ul style='margin:0 0 8px;padding-left:20px;font-size:13px;color:#475569;'><li><span style='color:#16a34a;font-weight:600;'>[PASS]</span> LocalBusiness/Organization on homepage — @type: LocalBusiness</li><li><span style='color:#dc2626;font-weight:600;'>[FAIL]</span> LocalBusiness score — 4/8</li><li><span style='color:#16a34a;font-weight:600;'>[PASS]</span> WebPage score — 50/50 pages have WebPage schema, 7/7</li><li><span style='color:#dc2626;font-weight:600;'>[FAIL]</span> BreadcrumbList score — 0/49 non-homepage pages, 0/3</li><li><span style='color:#dc2626;font-weight:600;'>[FAIL]</span> FAQPage score — 0/4</li><li><span style='color:#dc2626;font-weight:600;'>[FAIL]</span> Service score — 0/3</li><li><span style='color:#dc2626;font-weight:600;'>[FAIL]</span> Schema Completeness (General Business) — 5/10</li></ul><h4 style='margin:12px 0 6px;color:#0c1414;'>META TAGS — 7/20 points</h4><ul style='margin:0 0 8px;padding-left:20px;font-size:13px;color:#475569;'><li><span style='color:#16a34a;font-weight:600;'>[PASS]</span> Title/Description score — 6/8</li><li><span style='color:#dc2626;font-weight:600;'>[FAIL]</span> Open Graph score — 0/5</li><li><span style='color:#dc2626;font-weight:600;'>[FAIL]</span> Twitter Card score — 0/3</li><li><span style='color:#dc2626;font-weight:600;'>[FAIL]</span> Canonical/Robots/Freshness score — 1/4</li></ul><h4 style='margin:12px 0 6px;color:#0c1414;'>CONTENT STRUCTURE — 6/30 points</h4><ul style='margin:0 0 8px;padding-left:20px;font-size:13px;color:#475569;'><li><span style='color:#dc2626;font-weight:600;'>[FAIL]</span> H1 with location score — 4/50 pages, 0/5</li><li><span style='color:#16a34a;font-weight:600;'>[PASS]</span> Heading hierarchy score — 49/50 pages, 4/4</li><li><span style='color:#dc2626;font-weight:600;'>[FAIL]</span> Answer Quality score — Avg 0.0/8 across 49 pages, 0/8</li><li><span style='color:#dc2626;font-weight:600;'>[FAIL]</span> FAQ Coverage score — 2/5</li><li><span style='color:#dc2626;font-weight:600;'>[FAIL]</span> Service description depth score — 0 service pages found, 0/5</li><li><span style='color:#dc2626;font-weight:600;'>[FAIL]</span> Business name consistent — Found: round a/c, heating &amp; refrigeration, round air conditioning, heating &amp; refrigeration, llc</li></ul><h4 style='margin:12px 0 6px;color:#0c1414;'>TECHNICAL / ACCESSIBILITY — 8/10 points</h4><ul style='margin:0 0 8px;padding-left:20px;font-size:13px;color:#475569;'><li><span style='color:#16a34a;font-weight:600;'>[PASS]</span> HTTPS active — https</li><li><span style='color:#dc2626;font-weight:600;'>[FAIL]</span> All images have alt — 129/536 missing alt</li><li><span style='color:#16a34a;font-weight:600;'>[PASS]</span> HTML lang attribute — </li><li><span style='color:#16a34a;font-weight:600;'>[PASS]</span> Skip-to-content link — </li><li><span style='color:#16a34a;font-weight:600;'>[PASS]</span> Semantic elements (nav/main/footer) — 3/3 found</li><li><span style='color:#16a34a;font-weight:600;'>[PASS]</span> HTTPS/Performance score — 4/5</li><li><span style='color:#16a34a;font-weight:600;'>[PASS]</span> Accessibility score — 4/5</li></ul><h4 style='margin:12px 0 6px;color:#0c1414;'>CONTENT_DEPTH — Score: 5/10</h4>
+            </div>
+        </details>
+
+        <!-- Footer -->
+        <div style="text-align:center;margin-top:48px;padding-top:24px;border-top:1px solid #e2e8f0;color:#94a3b8;font-size:12px;">
+            Generated by Exponent Marketing & AI &mdash; GEO Punchlist Tool
+        </div>
+    </div>
+</body>
+</html>
